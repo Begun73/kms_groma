@@ -1,3 +1,7 @@
 body{
-    background-color: cadetblue;
+    background-color: #34495e;
+}
+#BarMenu.MuiAppBar-colorPrimary {
+    color:  #ecf0f1;
+    background-color: #2c3e50;
 }
