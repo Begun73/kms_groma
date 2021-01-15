@@ -6,6 +6,15 @@ body{
     color: #34495e;
     background-color: #f5f5f7;
 }
+.site_logo{
+    max-width: 153px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin: 0 auto;
+}
+
 @media (min-width: 600px){
     .MuiToolbar-regular {
         min-height: 53px!important;
