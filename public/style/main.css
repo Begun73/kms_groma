@@ -8,11 +8,13 @@ body{
 }
 .site_logo{
     max-width: 153px;
+    width: 100%;
+    margin: 0 auto;
+}
+.site_logo div{
     height: 46px;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100%;
-    margin: 0 auto;
 }
 
 @media (min-width: 600px){

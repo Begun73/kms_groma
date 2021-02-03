@@ -6,13 +6,13 @@ import {
   FormControl,
 } from '@material-ui/core';
 
-import {useThemeSwitcher} from 'react-css-theme-switcher';
+import { useThemeSwitcher } from 'react-css-theme-switcher';
 
 const ThemeSwitcher: React.FC = () => {
   const { switcher, themes, currentTheme, status } = useThemeSwitcher();
   const [isDarkMode, setIsDarkMode] = React.useState(false);
   const toggleDarkMode = () => {
-    setIsDarkMode(previous => {
+    setIsDarkMode((previous) => {
       switcher({ theme: previous ? themes.light : themes.dark });
       return !previous;
     });
@@ -21,6 +21,7 @@ const ThemeSwitcher: React.FC = () => {
     <FormControl component="fieldset">
       <FormGroup aria-label="position" row>
         <FormControlLabel
+          id="Switcher"
           value="start"
           control={<Switch color="primary" />}
           label="Start"

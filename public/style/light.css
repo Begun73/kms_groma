@@ -6,6 +6,13 @@ body{
     background-color: #f5f5f7;
     border-top: 1px solid #dddddd;
 }
-.site_logo{
+#Switcher .MuiSwitch-switchBase{
+    color:  #f5f5f7;
+}
+#Switcher .MuiSwitch-track{
+    background-color:#2c3e50;
+    opacity: 0.8;
+}
+.site_logo div{
     background-image: url("./img/logo_light.png");
 }

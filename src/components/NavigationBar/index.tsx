@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, IconButton, Button } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+import { Link } from 'react-router-dom';
 
 const NavigationBar: React.FC = () => {
   return (
@@ -9,7 +10,9 @@ const NavigationBar: React.FC = () => {
         <IconButton edge="start" color="inherit" aria-label="menu">
           <MenuIcon />
         </IconButton>
-        <div className="site_logo"></div>
+        <Link to="/" className="site_logo">
+          <div className=""></div>
+        </Link>
       </Toolbar>
     </AppBar>
   );
