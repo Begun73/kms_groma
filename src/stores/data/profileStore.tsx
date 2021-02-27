@@ -16,12 +16,9 @@ const ProfileStore = () => {
             this.isLoadingProfile = true;
             await test();
             runInAction(
-                () => (
-                  (this.isLoadingProfile = false)
-                )
-              )
-            
-            
+                () => {
+                    this.isLoadingProfile = false
+                })
         }
     })
 }
